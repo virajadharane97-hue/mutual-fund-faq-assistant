@@ -1,0 +1,25 @@
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+playwright>=1.40.0         # Fallback for JS-rendered pages
+
+# Text Processing & RAG
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+langchain-groq>=0.1.0      # Groq LLM integration
+
+# Embeddings
+sentence-transformers>=2.2.0  # For BGE model
+
+# Vector Store
+chromadb>=0.4.0
+
+# LLM
+groq>=0.5.0                # Groq API client
+
+# UI
+streamlit>=1.30.0
+
+# Utilities
+python-dotenv>=1.0.0

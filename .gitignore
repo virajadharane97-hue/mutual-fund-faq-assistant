@@ -1,0 +1,34 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Vector Store (persisted data — regenerated via ingestion)
+data/chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
